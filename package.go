@@ -62,8 +62,8 @@ func main() {
   fmt.Println("const value", v5)
 
   // An untyped constant takes the type needed by its context.
-  const v6 = 1 << 100
-  fmt.Printf("val has type %T", v6)
+//   const v6 = 1 << 100
+//   fmt.Printf("val has type %T", v6)  uncomenting this would be an error. as its untype constant and it needs context to decide its type.
 
 
 }
